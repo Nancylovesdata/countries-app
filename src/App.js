@@ -4,6 +4,7 @@ import Homepage from './pages/homepage';
 import{ BrowserRouter, Routes, Route } from 'react-router-dom'
 import Aboutpage from './pages/Aboutpage';
 import Countriespage from './pages/countriespage';
+import Countrypage from './pages/countrypage';
 
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
   <Route path='/' element={<Homepage/>}> </Route>
   <Route path='/Aboutpage' element={<Aboutpage/>}> </Route>
   <Route path='/Countriespage' element={<Countriespage/>}> </Route>
-    
+  <Route path='/Countrypage' element={<Countrypage/>}> </Route>
     
  
 </Routes>
