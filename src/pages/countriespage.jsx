@@ -18,7 +18,7 @@ useEffect(() => {
     setCountry(countriesBox) 
     } catch (error) {
       console.log(error)
-    }
+    }6+
    
 };
 
@@ -53,7 +53,8 @@ sliceData.map(country=> {
     <div>
         <h1>This is my Countriespage</h1>
        <Navbar/> 
-    <div className='outer-div'>{country.slice(0,10).map((item)=>(
+    <div className='outer-div'>
+    {country.slice(0,10).map((item)=>(
      
 <div>
   <h1>{item.name.common}</h1>
